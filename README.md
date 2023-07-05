@@ -1,2 +1,2 @@
-# JS-Hindi
-Hitesh
+# Javascript Tutorial
+
