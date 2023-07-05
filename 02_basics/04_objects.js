@@ -54,13 +54,40 @@ const users = [
 // console.log(users[2].email);  SAME LIKE ARRAY
 
 // console.log(Object.keys(tinderUser)); """""// Datatype is ARRAY
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser)); // makes value as ARRAY
+// console.log(Object.values(tinderUser));
+// // console.log(Object.entries(tinderUser)); // makes value as ARRAY
 
 console.log(tinderUser.hasOwnProperty('isLoggedin')); // Checks whether it's there
 
 
 // """""""""""""" INSPECT OBJECT TO SEE MORE METHODS AND FUNCTIONS """"""""""""""""""""""
+ 
+
+////////////////////////////////////////////////////////
+//  """""OBJECT RE-STRUCTURING""""""" //
+
+const COURSE = {
+    courseName : "MEAN",
+    price : "78000",
+    courseInstructor: "Mohammed Faheem"
+}
+
+// NORMALYY to get access we use
+//console.log(COURSE.courseInstructor); // or COURSE[courseInstructor]
+
+// Inorder to make code clean and don't repeat same thing
+// ""USE""
+
+// const {courseInstructor} = COURSE
+// console.log(courseInstructor);
+// Can customize the name as well
+
+const {courseInstructor : Instructor} = COURSE
+
+
+// console.log(Instructor); RESULT IS SAME
+
+
 
 
 
