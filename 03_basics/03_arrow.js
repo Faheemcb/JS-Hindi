@@ -49,3 +49,7 @@ const chai =  () => {
 const addTwo = (num1  , num2) =>  ({username : "Faheem"})
 // {username : Fahemm} it doesn't return because we have to give in ()
 console.log(addTwo(3 , 4));
+
+// *********** IMPORTANT **********
+// * if curly brace is there 'return' keyword must be used
+// * if it's not there then no need
